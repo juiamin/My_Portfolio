@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url(../images/gravel.png);
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+}
+
+header {
+  /* width: 100%; */
+  background-color:white;
+  border-bottom: 2px solid grey;
+}
+
+.container {
+  width: 960px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: center; */
+ 
+}
+
+.container h1 {
+  margin-bottom: 0;
+  margin-top: 2%;
+  background-color: #4aaaa5;
+  padding: 20px 15px;
+  color: white;
+}
+
+.navbar{
+  padding-bottom: 0;
+   /* margin-left: auto;
+  display: flex;
+  justify-content: center; */
+}
+
+
+.container nav a {
+  color: gray;
+  /* padding: 0 15px; */
+  font-size: 20px;
+  /* text-decoration: none; */
+  /* border-right: 2px solid var(--light-blue); */
+}
+
+
+
+main{
+  width: 960px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+}
+
+main h2{
+  color: #4aaaa5;
+  padding: 0 10px 20px;
+  border-bottom: 3px solid gray;
+}
+
+
+/* .flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* width: 100%;
+} */ 
+ form{
+  width: 960px ;
+}
+
+
+
+.profile-img {
+  width: 200px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+main p {
+  color: rgb(112, 109, 109);
+}
+
+
+.flex-item{
+  width: 30%;
+  /* background-color: grey; */
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 45px;
+  margin-left: 31px;
+  background-size: cover;
+  padding: 8px 0;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-item.img1{
+  background-image: url(../images/box1_img.jfif);
+
+}
+
+.flex-item.img2{
+  background-image: url(../images/box2_img.jpg);
+
+}
+
+.flex-item.img3{
+  background-image: url(../images/box3_img.jfif);
+
+}
+.flex-item.img4{
+  background-image: url(../images/box44_img.jfif);
+
+}
+.flex-item.img5{
+  background-image: url(../images/box55_img.jfif);
+
+}
+.flex-item span{
+  margin-top: auto;
+  
+  width: 100%;
+  background-color:teal;
+  color: white;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+footer{
+  width: 100%;
+  text-align: center;
+  background-color: grey;
+  border-top:5px solid teal;
+  color: beige;
+  padding-top: 20px;
+   margin-bottom: 20px;
+}
+
+.flex-container label{
+   display: block;
+   padding: 1rem 0 .5rem 0;
+   color: grey;
+}
+
+ input , textarea{
+  /* display: block; */
+  width: 100%;
+  padding: 10px;
+  
+ }
+  
+#submitbtn{
+  border:0;
+  background-color: teal;
+  color: white;
+  width: auto;
+  margin-top: 5px;
+  padding: 10px 15px;
+  
+ 
+}
+
+
+
