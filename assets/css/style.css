@@ -74,12 +74,12 @@ main h2{
 }
 
 
-/* .flex-container {
+ .flex-container {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
-  /* width: 100%;
-} */ 
+   justify-content: space-between; 
+   width: 100%;
+} 
  form{
   width: 960px ;
 }
@@ -112,7 +112,7 @@ main p {
   flex-direction: column;
 }
 
-.flex-item.img1{
+/* .flex-item.img1{
   background-image: url(../images/box1_img.jfif);
 
 }
@@ -133,7 +133,7 @@ main p {
 .flex-item.img5{
   background-image: url(../images/box55_img.jfif);
 
-}
+} */
 .flex-item span{
   margin-top: auto;
   
