@@ -112,34 +112,21 @@ main p {
   flex-direction: column;
 }
 
-/* .flex-item.img1{
-  background-image: url(../images/box1_img.jfif);
-
-}
-
-.flex-item.img2{
-  background-image: url(../images/box2_img.jpg);
-
-}
-
-.flex-item.img3{
-  background-image: url(../images/box3_img.jfif);
-
-}
-.flex-item.img4{
-  background-image: url(../images/box44_img.jfif);
-
-}
-.flex-item.img5{
-  background-image: url(../images/box55_img.jfif);
-
-} */
-.flex-item span{
-  margin-top: auto;
+.card-body {
   
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+.card-title {
+  margin-bottom: .75rem;
+  margin-top: auto;
   width: 100%;
-  background-color:teal;
-  color: white;
+  background-color: teal;
+color:white;
   padding: 10px 5px;
   text-align: center;
 }
